@@ -33,7 +33,7 @@
 
         else {
             // include './includes/frmLogin.php';
-            $_SESSION['loginUser'] = $mail;
+            $_SESSION['emailUser'] = $mail;
             header('Location:index.php?page=membre');
         }
     }

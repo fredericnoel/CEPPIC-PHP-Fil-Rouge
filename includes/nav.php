@@ -12,7 +12,7 @@
             ?>
                 <span class="login">
                     <li><a href="index.php?page=logout">Logout</a></li>
-                    <li><img src="../assets/img/user.svg" ></li>
+                    <li><img src="../assets/img/user.png" ></li>
                 </span>
             <?php } else { ?>
                 <li><a href="index.php?page=inscription">Inscription</a></li>

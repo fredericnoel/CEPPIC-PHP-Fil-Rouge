@@ -2,6 +2,8 @@
 
 session_start();
 
+require './vendor/autoload.php';
+
 date_default_timezone_set('Europe/Paris');
 
 spl_autoload_register(function ($className) {
